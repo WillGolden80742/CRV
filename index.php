@@ -138,6 +138,7 @@
                 width: 100%;
                 height: auto;
             }
+            
             body {
                 padding: 0;
             }
