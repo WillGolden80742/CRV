@@ -124,10 +124,6 @@
 
         /* portrait */
         @media (orientation: portrait) {
-            body {
-                padding: 0;
-            }
-            
             .container {
                 width: 100%;
             }
@@ -142,7 +138,10 @@
                 width: 100%;
                 height: auto;
             }
-
+            body {
+                padding: 0;
+            }
+        
         }
     </style>
 </head>
