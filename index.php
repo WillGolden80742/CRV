@@ -67,6 +67,10 @@
             vertical-align: top;
         }
 
+        .details {
+            margin-top:0;
+        }
+
         .announcement {
             padding-left: 60px;
             padding-right: 60px;
@@ -236,7 +240,7 @@
 
             <p class="location"><span class="highlight">Localização: </span> São Paulo, SP</p>
             <a class="phone" href="https://api.whatsapp.com/send?phone=5511953679183">
-                <div class="details desktop">
+                <div class="details">
                     <p class="highlight">
                         <!--  whatsapp png icon -->
 
