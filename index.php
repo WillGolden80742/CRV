@@ -65,6 +65,7 @@
             width: 43%;
             display: inline-block;
             vertical-align: top;
+            backdrop-filter: blur(5px);
         }
 
         .announcement {
