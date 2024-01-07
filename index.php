@@ -67,14 +67,6 @@
             vertical-align: top;
         }
 
-        .details {
-            margin-top:0;
-        }
-
-        .phone {
-            padding: 0;
-        }
-
         .announcement {
             padding-left: 60px;
             padding-right: 60px;
@@ -170,7 +162,17 @@
                 width: -webkit-fill-available;
             }
 
-
+            .details {
+                position: fixed;
+                background: rgba(255, 255, 255, 0.9);
+                width: 250px;
+                left: 0;
+                bottom: 50%;
+                margin-bottom: 20px;
+                border-top-right-radius: 20px;
+                border-bottom-right-radius: 20px;
+                padding-left: 20px;
+            }
 
             img {
                 width: 100%;
@@ -244,7 +246,7 @@
 
             <p class="location"><span class="highlight">Localização: </span> São Paulo, SP</p>
             <a class="phone" href="https://api.whatsapp.com/send?phone=5511953679183">
-                <div class="details">
+                <div class="details desktop">
                     <p class="highlight">
                         <!--  whatsapp png icon -->
 
