@@ -214,7 +214,7 @@
                    
                 </p>
             </div>
-            </a>s
+            </a>
         </div>
         <div class="photos" id="photo">
             <img src="photos/2df135b3-b5ed-4547-a75d-8200d3981f7e.jpeg">
