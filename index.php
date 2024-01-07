@@ -191,6 +191,7 @@
             .announcement {
                 padding-left: 20px;
                 padding-right: 20px;
+                padding-bottom: 50px;
             }
 
             .announcement-link {
