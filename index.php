@@ -101,15 +101,12 @@
             padding: 10px;
             display: flex;
             display: none;
-        }
-
-        .picture-link a {
             text-decoration: none;
             font-size: 28px;
             color: white;
         }
 
-        .picture-link a img {
+        .picture-link img {
             width: 28px;
             margin: 0;
             vertical-align: middle;
@@ -218,18 +215,15 @@
     <a class="phone mobile" href="https://api.whatsapp.com/send?phone=5511953679183">
         <div class="detaill">
             <p class="highlight">
-                <!--  whatsapp png icon -->
-
                 <img src="https://img.icons8.com/color/48/000000/whatsapp.png" />
                 (11) 95367-9183
-
             </p>
         </div>
     </a>
     <div class="container" id="announcement">
         <div class="announcement">
             <h2>Honda CRV 2011 2.0 EXL 4X4</h2>
-            <p class="picture-link"><a href="#photo">Ver fotos <img src="photo.png"></a></p>
+            <a class="picture-link" href="#photo">Ver fotos <img src="photo.png"></a>
             <p><span class="highlight">Descrição:</span> Modelo: Honda CRV 2011 2.0 EXL 4X4, Transmissão: Automática,
                 Combustível: Gasolina, Quilometragem: 98.000 km, Condição: Bem Preservado</p>
 
