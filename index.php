@@ -165,7 +165,7 @@
             .details {
                 position: fixed;
                 background: rgba(255, 255, 255, 0.9);
-                width: 50px;
+                width: 250px;
                 left: 0;
                 bottom: 50%;
                 margin-bottom: 20px;
@@ -174,9 +174,6 @@
                 padding-left: 10px;
             }
 
-            .details .highlight span {
-                display: none;
-            }
 
             img {
                 width: 100%;
