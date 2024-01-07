@@ -162,17 +162,7 @@
                 width: -webkit-fill-available;
             }
 
-            .details {
-                position: fixed;
-                background: rgba(255, 255, 255, 0.9);
-                width: 250px;
-                left: 0;
-                bottom: 50%;
-                margin-bottom: 20px;
-                border-top-right-radius: 20px;
-                border-bottom-right-radius: 20px;
-                padding-left: 20px;
-            }
+
 
             img {
                 width: 100%;
