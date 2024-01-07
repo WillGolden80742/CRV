@@ -71,6 +71,10 @@
             margin-top:0;
         }
 
+        .phone {
+            padding: 0;
+        }
+
         .announcement {
             padding-left: 60px;
             padding-right: 60px;
