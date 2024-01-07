@@ -62,7 +62,7 @@
         .announcement,
         .photos,
         .details {
-            width: 45%;
+            width: 43%;
             display: inline-block;
             vertical-align: top;
         }
@@ -151,8 +151,8 @@
             display: none;
         }
 
-        /* portrait */
-        @media (orientation: portrait) {
+        /* tiny screen */
+        @media only screen and (max-width: 1080px) {
             .container {
                 width: 100%;
             }
@@ -199,16 +199,16 @@
             .announcement-link {
                 width: -webkit-fill-available;
                 height: auto;
-                padding-top: 10px;
+                padding-top: 20px;
                 padding-bottom: 20px;
-                background: rgba(255, 255, 255, 0.9);
                 color: blue;
                 text-align: center;
                 display: block;
                 text-decoration: none;
-                color: black;
+                color: white;
                 font-weight: bold;
                 font-size: x-large;
+                background: rgba(122, 122, 122, 0.9);
             }
         }
     </style>
