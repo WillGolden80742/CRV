@@ -148,6 +148,16 @@
             display: none;
         }
 
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Additional styles for smooth scrolling */
+        .announcement-link,
+        .picture-link {
+            cursor: pointer;
+        }
+
         /* tiny screen */
         @media only screen and (max-width: 1080px) {
             .container {
