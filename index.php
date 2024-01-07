@@ -96,7 +96,8 @@
 
         .picture-link {
             display: none;
-            background-color: rgba(255, 255, 255, 0.5);
+            background: rgba(122, 122, 122, 0.9);
+            border-radius:10px;
             padding: 10px;
             display: flex;
             display: none;
