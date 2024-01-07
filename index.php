@@ -57,7 +57,6 @@
         img {
             max-width: 100%;
             height: auto;
-            margin: -10px
         }
 
         .announcement,
@@ -135,6 +134,17 @@
             font-weight: bold;
         }
 
+        .desktop {
+            display: block;
+        }
+
+        .mobile {
+            display: none;
+        }
+        .announcement-link {
+            display:none;
+        }
+
         /* portrait */
         @media (orientation: portrait) {
             .container {
@@ -156,7 +166,7 @@
                 margin-bottom: 20px;
                 border-top-right-radius: 20px;
                 border-bottom-right-radius: 20px;
-                padding-left:20px;
+                padding-left: 20px;
             }
 
             img {
@@ -176,12 +186,37 @@
                 padding-left: 20px;
                 padding-right: 20px;
             }
+            .announcement-link {
+                width:-webkit-fill-available;
+                height:auto;
+                padding-top:10px;
+                padding-bottom:10px;
+                background: rgba(255, 255, 255, 0.9);
+                color: blue;
+                text-align: center;
+                display: block;
+                text-decoration: none;
+                color:black;
+                font-weight: bold;
+                font-size: x-large;
+            }
         }
     </style>
 </head>
 
 <body>
-    <div class="container">
+    <a class="phone mobile" href="https://api.whatsapp.com/send?phone=5511953679183">
+        <div class="detaill">
+            <p class="highlight">
+                <!--  whatsapp png icon -->
+
+                <img src="https://img.icons8.com/color/48/000000/whatsapp.png" />
+                (11) 95367-9183
+
+            </p>
+        </div>
+    </a>
+    <div class="container" id="announcement">
         <div class="announcement">
             <h2>Honda CRV 2011 2.0 EXL 4X4</h2>
             <p class="picture-link"><a href="#photo">Ver fotos <img src="photo.png"></a></p>
@@ -205,18 +240,19 @@
 
             <p class="location"><span class="highlight">Localização: </span> São Paulo, SP</p>
             <a class="phone" href="https://api.whatsapp.com/send?phone=5511953679183">
-            <div class="details">
-                <p class="highlight">
-                    <!--  whatsapp png icon -->
+                <div class="details desktop">
+                    <p class="highlight">
+                        <!--  whatsapp png icon -->
 
                         <img src="https://img.icons8.com/color/48/000000/whatsapp.png" />
                         (11) 95367-9183
-                   
-                </p>
-            </div>
+
+                    </p>
+                </div>
             </a>
         </div>
         <div class="photos" id="photo">
+            <a href="#announcement" class="announcement-link">Ver anúncio</a>    
             <img src="photos/2df135b3-b5ed-4547-a75d-8200d3981f7e.jpeg">
             <img src="photos/4d2835ff-fc20-4df2-af24-c21e59e67a95.jpeg">
             <img src="photos/07a12f9e-095c-49f0-96f3-b7a18988a9fc.jpeg">
