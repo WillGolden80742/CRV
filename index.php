@@ -165,13 +165,17 @@
             .details {
                 position: fixed;
                 background: rgba(255, 255, 255, 0.9);
-                width: 250px;
+                width: 50px;
                 left: 0;
                 bottom: 50%;
                 margin-bottom: 20px;
                 border-top-right-radius: 20px;
                 border-bottom-right-radius: 20px;
-                padding-left: 20px;
+                padding-left: 10px;
+            }
+
+            .details .highlight span {
+                display: none;
             }
 
             img {
@@ -246,12 +250,12 @@
 
             <p class="location"><span class="highlight">Localização: </span> São Paulo, SP</p>
             <a class="phone" href="https://api.whatsapp.com/send?phone=5511953679183">
-                <div class="details desktop">
+                <div class="details">
                     <p class="highlight">
                         <!--  whatsapp png icon -->
 
                         <img src="https://img.icons8.com/color/48/000000/whatsapp.png" />
-                        (11) 95367-9183
+                        <span>(11) 95367-9183</span>
 
                     </p>
                 </div>
