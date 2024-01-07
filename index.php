@@ -164,7 +164,7 @@
 
             .details {
                 position: fixed;
-                background: rgba(255, 255, 255, 0.9);
+                background: rgba(122, 122, 122, 0.9);
                 width: 200px;
                 left: 0;
                 bottom: 50%;
