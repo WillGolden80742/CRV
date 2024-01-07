@@ -65,7 +65,6 @@
             width: 43%;
             display: inline-block;
             vertical-align: top;
-            backdrop-filter: blur(5px);
         }
 
         .announcement {
@@ -98,7 +97,7 @@
         .picture-link {
             display: none;
             background: rgba(122, 122, 122, 0.9);
-            border-radius:10px;
+            border-radius: 10px;
             padding: 10px;
             display: flex;
             display: none;
@@ -181,7 +180,8 @@
                 border-top-right-radius: 20px;
                 border-bottom-right-radius: 20px;
                 padding-left: 10px;
-                color:black;
+                color: black;
+                backdrop-filter: blur(5px);
             }
 
 
