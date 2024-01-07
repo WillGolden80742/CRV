@@ -96,6 +96,10 @@
 
         .picture-link {
             display: none;
+            background-color: rgba(255, 255, 255, 0.5);
+            padding: 10px;
+            display: flex;
+            display: none;
         }
 
         .picture-link a {
@@ -108,7 +112,7 @@
             width: 28px;
             margin: 0;
             vertical-align: middle;
-            margin-bottom: 10px;
+            margin-bottom: 5px;
         }
 
         ::-webkit-scrollbar {
@@ -141,8 +145,9 @@
         .mobile {
             display: none;
         }
+
         .announcement-link {
-            display:none;
+            display: none;
         }
 
         /* portrait */
@@ -186,17 +191,18 @@
                 padding-left: 20px;
                 padding-right: 20px;
             }
+
             .announcement-link {
-                width:-webkit-fill-available;
-                height:auto;
-                padding-top:10px;
-                padding-bottom:10px;
+                width: -webkit-fill-available;
+                height: auto;
+                padding-top: 10px;
+                padding-bottom: 10px;
                 background: rgba(255, 255, 255, 0.9);
                 color: blue;
                 text-align: center;
                 display: block;
                 text-decoration: none;
-                color:black;
+                color: black;
                 font-weight: bold;
                 font-size: x-large;
             }
@@ -252,7 +258,7 @@
             </a>
         </div>
         <div class="photos" id="photo">
-            <a href="#announcement" class="announcement-link">Ver anúncio</a>    
+            <a href="#announcement" class="announcement-link">Ver anúncio</a>
             <img src="photos/2df135b3-b5ed-4547-a75d-8200d3981f7e.jpeg">
             <img src="photos/4d2835ff-fc20-4df2-af24-c21e59e67a95.jpeg">
             <img src="photos/07a12f9e-095c-49f0-96f3-b7a18988a9fc.jpeg">
