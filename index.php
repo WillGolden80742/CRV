@@ -196,7 +196,7 @@
                 width: -webkit-fill-available;
                 height: auto;
                 padding-top: 10px;
-                padding-bottom: 10px;
+                padding-bottom: 20px;
                 background: rgba(255, 255, 255, 0.9);
                 color: blue;
                 text-align: center;
