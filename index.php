@@ -99,6 +99,22 @@
             /* Adicione esta linha para alinhar verticalmente o ícone */
         }
 
+        .picture-link {
+            display: none;
+        }
+
+        .picture-link a {
+            text-decoration: none;
+            font-size: 28px;
+            color: white;
+        }
+
+        .picture-link a img {
+            width: 28px;
+            margin: 0;
+            vertical-align: middle;
+        }
+
         ::-webkit-scrollbar {
             width: 20px;
             border: none;
@@ -143,6 +159,9 @@
                 padding: 0;
             }
         
+            .picture-link {
+                display: block;
+            }
         }
     </style>
 </head>
@@ -159,6 +178,8 @@
                 mil km rodados, Revisões em dia</p>
 
             <p class="price"><span class="highlight">Preço:</span> R$58.000,00</p>
+
+            <p class="picture-link"><a href="#photo">Ver fotos <img src="photo.png" ></a></p>
 
             <p class="highlight">Destaque:</p>
             <ul>
@@ -182,7 +203,7 @@
                 </p>
             </div>
         </div>
-        <div class="photos">
+        <div class="photos" id="photo">
             <img src="2df135b3-b5ed-4547-a75d-8200d3981f7e.jpeg">
             <img src="4d2835ff-fc20-4df2-af24-c21e59e67a95.jpeg">
             <img src="07a12f9e-095c-49f0-96f3-b7a18988a9fc.jpeg">
